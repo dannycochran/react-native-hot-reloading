@@ -1,0 +1,1 @@
+An example repo demonstrating how hot reloading fails with circular dependencies.
