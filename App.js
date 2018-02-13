@@ -14,12 +14,6 @@ import React, { Component } from 'react';
 
 import dependency0 from './Dependency0';
 import dependency1 from './Dependency1';
-import dependency2 from './Dependency2';
-import dependency3 from './Dependency3';
-import dependency4 from './Dependency4';
-import { instructions } from './instructions';
-
-export const circularInstructions = 'foo and bar';
 
 export default class App extends Component {
   render() {
@@ -31,15 +25,8 @@ export default class App extends Component {
         <Text style={styles.instructions}>
           To get started, edit App.js
         </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
-        <Text>{circularInstructions}</Text>
         <Text>{dependency0}</Text>
         <Text>{dependency1}</Text>
-        <Text>{dependency2}</Text>
-        <Text>{dependency3}</Text>
-        <Text>{dependency4}</Text>
       </ScrollView>
     );
   }
